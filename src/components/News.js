@@ -6,7 +6,7 @@ import './News.css'
 export default function News() {
    const[news,setnews] = useState([])
    const getnews=async()=>{
-     let data = await fetch("https://newsapi.org/v2/everything?q=tesla&from=2023-05-24&sortBy=publishedAt&apiKey=92cfcd9523df47b2b1ea03f9b5712962")
+     let data = await fetch("https://newsapi.org/v2/everything?q=tesla&from=2023-05-24&sortBy=publishedAt&apiKey=76016a1ffeac47cd996c4ea4834f697c")
      const jsondata = await data.json()
      setnews(jsondata.articles)
      console.log(news)
