@@ -1,0 +1,122 @@
+.nav{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.nav div h4{
+    margin-bottom : 5px
+}
+#h{
+    margin: 9px;
+    margin-left: 15px;
+    margin-top: -0px;
+    font-style: oblique;
+    color: skyblue;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.btn{
+    margin: 5px;
+    margin-right: 20px;
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 05px;
+    -webkit-border-radius: 05px;
+    -moz-border-radius: 05px;
+    -ms-border-radius: 05px;
+    -o-border-radius: 05px;
+    color: black;
+    
+}
+
+.btn:hover{
+    color: rgb(12, 169, 231);
+}
+h4{
+    font-size:40px;
+    margin-top: 09%;
+    margin-left: 42px;
+    color: rgb(218, 33, 125)
+
+}
+span{
+    font-size: 98px;
+    color: rgb(44, 183, 238);
+}
+.base{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+footer{
+    background-color:black;
+    height: 100px;
+    text-align: center;
+    
+}
+footer h4{
+    font-size:30px;
+    margin-bottom: -19px;
+    
+}
+footer p{
+    font-size: 32px;
+    color: rgb(44, 183, 238);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.images{
+    height:200px;
+    width: 200px;
+}
+.scroll-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px;
+    
+   
+}
+.scroll-container .item-container{
+    width: 13%;
+    height: 40%;
+    padding: 30px;
+   
+  
+    
+}
+.imageswalidabba{
+    height: 500px;
+    width: 400px;
+    overflow: hidden;
+    
+}
+.imagesandar{
+    padding: 50px;
+
+    margin: 20px;
+    
+    
+}
+.mycont{
+    background-image:url("https://www.shutterstock.com/image-photo/blurred-glowing-teal-color-background-260nw-591675059.jpg");
+   
+}
+button{
+    text-decoration: none;
+}
+.footerimage img{
+    height: 30px;
+    width: 30px;
+
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(165,234,239);
+}
