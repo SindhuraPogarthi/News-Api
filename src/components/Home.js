@@ -1,8 +1,9 @@
 import React from 'react'
 import './News.css'
 import News from './News.js'
-import myimg from './download.png'
-import github from './github.jpeg'
+// import myimg from './download.png'
+// import github from './github.jpeg'
+
 
 
 <script src="https://kit.fontawesome.com/c8347a6298.js" crossorigin="anonymous"></script>
@@ -33,31 +34,19 @@ export default function Home() {
             </div>
 
             <News />
-            <footer style={{height:"120px"}}>
+            <footer>
+                <div className='footercont'>
+                    <div className='socialicons'>
+                        <a href='https://www.linkedin.com/in/sindhurapogarthi/' target='_blank' rel="noreferrer"><i className='fa-brands fa-linkedin'> </i></a>
+                        <a href='https://github.com/SindhuraPogarthi' target='_blank' rel="noreferrer"><i className='fa-brands fa-github'> </i></a>
+                    </div>
+                    <div className='footerbottom'>
+                        <p style={{margin:"5px",color:"rgb(165,234,239)"}}>Copyright &copy;2023; Designed by Sindhura Pogarthi </p>
 
-                <div >
-                    <p style={{ color: "rgb(217,33,124)" }}>Follow Us</p>
-
-                    <div className='footerimage'>
-                        <a href="https://www.linkedin.com/in/sindhurapogarthi/" target="_blank" rel="noreferrer">
-                            <img src={myimg} alt="LinkedIn Profile" />
-                        </a>
-                        <a href="https://github.com/SindhuraPogarthi" target="_blank" rel="noreferrer">
-                            <img src={github} alt="LinkedIn Profile" />
-                        </a>
-                        <div>
-                            Terms of Service | Privacy Policy | API Documentation
-
-                            © [Current Year] [Your Company Name]. All rights reserved.
-                        </div>
                     </div>
 
-
                 </div>
-                <div>
-
-
-                </div>
+                
 
             </footer>
         </>

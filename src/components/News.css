@@ -110,13 +110,22 @@ footer p{
 button{
     text-decoration: none;
 }
-.footerimage img{
-    height: 30px;
-    width: 30px;
-
-}
 footer{
-    display: flex;
-    justify-content: space-evenly;
-    background-color:rgb(165,234,239);
+   
+    background-color: rgb(227, 122, 175) ;
 }
+.footercontainer{
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none ;
+    padding:10px;
+    background-color:rgb(165,234,239);
+    margin: 10px;
+    border-radius: 50%;
+}
+
